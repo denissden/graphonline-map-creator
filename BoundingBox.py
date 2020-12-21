@@ -1,6 +1,8 @@
 class BoundingBox:
-    x1, y1 = (0, 0)
-    x2, y2 = (800, 400)
+    x1, y1 = (-2000, -2000)
+    x2, y2 = (8000, 6000)
+    # x1, y1 = (-100, -100)
+    # x2, y2 = (800, 600)
 
     def __init__(self, lat1, long1, lat2, long2):
         if lat1 < lat2:
